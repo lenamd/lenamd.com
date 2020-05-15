@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<link rel="stylesheet" href="assets/css/icon.css">
+		<!--[if lt IE 8]><!-->
+		<link rel="stylesheet" href="assets/ie7/ie7.css">
+		<!--<![endif]-->
+	</head>
+	<body>
+		<main>
+			<h1 class="post-single-title">We want to add Persian Language to OpenSourceFriday website</h1>
+			<div class="post-single-subtitle">
+				<span class="post-single-line-through"></span>
+				<span class="post-single-line-timeread">☕ 200 min read</span>
+				<span class="post-single-line-through"></span>
+			</div>
+			<div class="clear"></div>
+			<div class="post-single-body">
+				<p>Using Visual Studio Code, you probably noticed this behavior:</p>
+				<ol>
+					<li>You click on a file. It opens in a new tab.</li>
+					<li>You click on another file. It opens the file in the same tab, replacing the previous file.</li>
+				</ol>
+				<p>And that can feel a bit annoying. What if you want to open each file in a new tab when you click them? Why is it behaving like that? 😭</p>
+				<p>Well, if you look closer, you can notice the tab name is <em>italicised</em>. In fact, this tab is <strong>a preview</strong> of the file. When you click on a file, you preview its content. Since there can only be one preview tab, the preview will change if you select another file.</p>
+				<p>Actually, this is a VS Code feature. It’s meant to prevent you from opening 10 different tabs if you are just looking for something, but you don’t intent to keep the files open. That way, you can easily see what’s inside a file, just by clicking on it.</p>
+				<p>If you want the file to open and stick in it’s own tab, you can double-click on the file name, or on the tab.</p>
+				<h2 id="ok-but-id-prefer-to-open-files-when-i-click-on-them-how-can-i-do-that">OK, but I’d prefer to open files when I click on them. How can I do that?</h2>
+				<p>I hear you. Maybe you usually want to open the files you select and you find that behavior kinda annoying.</p>
+				<p>It just adds friction because you think the file is open but it’s hard to make the difference with a preview. So you forget, you click on another file and snap, your previous file is gone and you need to go get it again!</p>
+				<p>I’ve got a good news for you: <strong>you can configure this behavior!</strong> 😉</p>
+				<p>To do so, open VS Code settings. Search for “enable preview”. You’ll see a <strong>Workbench › Editor: Enable Preview</strong> option that’s certainly checked.</p>
+				<p>
+				  <a class="gatsby-resp-image-link" href="/static/settings-77069fe2783eca4e0254bd0213cdc434-b9035.png" style="display: block" target="_blank" rel="noopener">
+				  
+				  <span class="gatsby-resp-image-wrapper" style="position: relative; display: block;  max-width: 960px; margin-left: auto; margin-right: auto;">
+				    <span class="gatsby-resp-image-background-image" style="padding-bottom: 28.62944162436548%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsSAAALEgHS3X78AAABCUlEQVQY022QSVLDMBBFfQISsDXYkjxFdiwpjpNAFVuq2LPIGbj/FT4tOVAUZPGqpS/17yHT/QimajzkHBsm7yBWil/ctJgT3q94vX7Cv30grwyyfu9g+gG5kHjiAtuCERzbnGFDPDJOCHqTdxDgukXZ9BQb8iiR+eUZioRoojuLMSywboabTwjLGXVvIU0DqWsIFTErej3zUoGVFXilUdA5GXajI1EldtMBg59hKVp3QL/3aIcJpWlR1d0/ykSbmoqm2TSf6XOTxopiNG/thMGFhJ089mEmbUQhKzBKWovf4s9dpTVk4fSCejcmwzhCHNkdL4iF/HJJ3dW0Y0PrqJouFf3Ltx53+AUajKGxImV/tQAAAABJRU5ErkJggg=='); background-size: cover; display: block;">
+				    </span>
+				  </span>
+				  
+				  </a>
+				    </p>
+				<p><strong>Uncheck that</strong> to change your editor behavior.</p>
+				<p>Notice you can also control this behavior for files you open through the <strong>Quick Open</strong> feature.</p>
+				<p>
+				  <a class="gatsby-resp-image-link" href="/static/quick-open-16fe678438939bdad17c847f3fc8e715-948e3.png" style="display: block" target="_blank" rel="noopener">
+				  
+				  <span class="gatsby-resp-image-wrapper" style="position: relative; display: block;  max-width: 635px; margin-left: auto; margin-right: auto;">
+				    <span class="gatsby-resp-image-background-image" style="padding-bottom: 34.960629921259844%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsSAAALEgHS3X78AAABLElEQVQoz3WQ2XKCQBBF+QRjDIogbuwyo+AygiKh1Jik8pT//5ebnhHXqjycmu6eqlO3WzPHPpodCy8dE6/dHpqGhZZpn6G+1bWvvfxv6MaNt3aNjkbbgG4NoI1Zivz7F+vqhHmxx6I8IFpkZ5bZra4J5+sagTD7QLj5gp99Ii1PGAYTaA6bYXX8QbbbI8kKzMQGXjzDwAvRdwP1/ksQEwx9P8YoZDBsSiglCdlFUSlZnK7AKVnA01ocwRw6sCQjF72xd4d7hua240E3e9C4yDHdHSC2lRJxWsuj1FImcSJOMLiTqUolRbbjPyBncps23VkTuUBRFVhu6X6bkoRrOBN+lUnRhXvhvVjVJNSl0IlirN6PWOSlSsjo4DKhzxL4PEEwnav6su6z7Fn4B7E5zm60j/erAAAAAElFTkSuQmCC'); background-size: cover; display: block;">
+				    </span>
+				  </span>
+				  
+				  </a>
+				    </p>
+				<p>When you open a file by its name through the <strong>Quick Open</strong> feature, it’s probable you want to have it open instead of previewed. If so, uncheck the <strong>Workbench › Editor: Enable Preview From Quick Open</strong> option too.</p>
+				<p>Finally, if you prefer to update the <code class="language-text">settings.json</code>, here are the keys you’re looking for:</p>
+				<br><br>
+			</div>
+
+			<div class="post-single__meta">
+				<span class="post-single__date">Published 1 Jan 2020</span>
+				<span class="post-single__comments">
+					<span class="ti-twitter-alt"></span>
+					<a class="link-underlined" href="https://mobile.twitter.com/search?q=https://www.google.com/" target="_blank" rel="noopener noreferrer">Discuss this article on Twitter</a>
+				</span>
+			</div>
+
+			<div class="clear"></div>
+
+			<ul class="tags">
+				<li>
+					<a href="/tags/vscode-feature/">vscode feature</a>
+				</li>
+				<li>
+					<a href="/tags/vscode-feature/">vscode feature</a>
+				</li>
+				<li>
+					<a href="/tags/vscode-feature/">vscode feature</a>
+				</li>
+				<li>
+					<a href="/tags/vscode-feature/">vscode feature</a>
+				</li>
+				<li>
+					<a href="/tags/vscode-feature/">vscode feature</a>
+				</li>
+				<li>
+					<a href="/tags/vscode-feature/">vscode feature</a>
+				</li>
+				<li>
+					<a href="/tags/vscode-feature/">vscode feature</a>
+				</li>
+				<li>
+					<a href="/tags/vscode-feature/">vscode feature</a>
+				</li>
+				<li>
+					<a href="/tags/vscode-feature/">vscode feature</a>
+				</li>
+				<li>
+					<a href="/tags/vscode-feature/">vscode feature</a>
+				</li>
+				<li>
+					<a href="/tags/vscode-feature/">vscode feature</a>
+				</li>
+				<li>
+					<a href="/tags/vscode-feature/">vscode feature</a>
+				</li>
+				<li>
+					<a href="/tags/vscode-feature/">vscode feature</a>
+				</li>
+				<li>
+					<a href="/tags/vscode-feature/">vscode feature</a>
+				</li>
+			</ul>
+		</main>
+		<ul class="tags fix-top-left">
+			<li>
+				<a href="index.html">Go to main page</a>
+			</li>
+		</ul>
+	</body>
+</html>
